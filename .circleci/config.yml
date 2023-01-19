@@ -262,7 +262,10 @@ jobs:
             else
               echo "No migrations are pending" 
             fi
-      - gfgf
+      - run:
+          name: Trigger error
+          command: |
+            cat inverntoryyy.txt
       - destroy-environment
       - revert-migrations      
 
