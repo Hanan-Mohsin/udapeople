@@ -246,6 +246,8 @@ jobs:
     steps:
       - checkout
       - install_awscli
+      - restore_cache:
+          keys: [backend-build]
       - run:
           name: Run migrations
           command: |
@@ -262,10 +264,6 @@ jobs:
             else
               echo "No migrations are pending" 
             fi
-      - run:
-          name: Trigger error
-          command: |
-            cat inverntoryyy.txt
       - destroy-environment
       - revert-migrations      
 
