@@ -374,4 +374,4 @@ workflows:
       # - cleanup:
       #     requires: [cloudfront-update]
       - notify_on_success:
-        requires: [deploy-infrastructure]
+          requires: [deploy-infrastructure]
