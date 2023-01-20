@@ -1,0 +1,6 @@
+URL01: https://github.com/Hanan-Mohsin/udapeople
+URL02: http://udapeople-ef50dd2.s3-website-us-east-1.amazonaws.com
+URL03: http://ddv55s1sx6jh.cloudfront.net
+URL04: http://44.202.45.79 or http://ec2-44-202-45-79.compute-1.amazonaws.com
+URL05: http://54.86.165.103:9090 or http://ec2-54-86-165-103.compute-1.amazonaws.com:9090
+	
