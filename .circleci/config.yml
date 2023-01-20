@@ -393,10 +393,11 @@ jobs:
 
   cloudfront-update:
     docker:
-      - image: amazon/aws-cli
+      - image: cimg/base:stable
     steps:
       - checkout
       - install_nodejs
+      - install_awscli
       - run:
           name: Save Old Workflow ID to kvdb.io
           command: |
